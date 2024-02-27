@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T08:33:59.278Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="6Y7mWn422FtrBe7QR11_" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T08:35:35.842Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_QnUdIrCmuUAAJjhkoBL" version="23.1.7" type="github">
   <diagram name="第 1 页" id="vBj44yjuVVsO47nY4Is8">
     <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
         <mxCell id="1ITKOEGX5XHPUvmLvWds-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ITKOEGX5XHPUvmLvWds-5" target="1ITKOEGX5XHPUvmLvWds-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1ITKOEGX5XHPUvmLvWds-5" value="会否存在旧记录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1ITKOEGX5XHPUvmLvWds-5" value="是否存在旧记录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="340" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1ITKOEGX5XHPUvmLvWds-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1ITKOEGX5XHPUvmLvWds-7" target="1ITKOEGX5XHPUvmLvWds-9">
