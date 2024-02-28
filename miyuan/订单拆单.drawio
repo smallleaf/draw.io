@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T09:59:46.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_b75NVOi7nN5S5mEMavX" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T10:00:53.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3Nj8OjhegFQeFUUiOXid" version="23.1.7" type="github">
   <diagram name="第 1 页" id="TJExeLHt3U3KNy0eatjh">
     <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NyRurbZEW1F-XB1ejXOH-10" value="topic:miyuan-order-commission-result-topic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="567.5" width="260" height="25" as="geometry" />
+          <mxGeometry x="790" y="567.5" width="260" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="NyRurbZEW1F-XB1ejXOH-16" value="主流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NyRurbZEW1F-XB1ejXOH-17" value="根据channel获取税率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
