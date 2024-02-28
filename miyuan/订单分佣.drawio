@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T11:05:16.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KAQQLojp7x9_81mSgRSa" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T11:09:52.996Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hZRZItI-BOkJwgqLhw5R" version="23.1.7" type="github">
   <diagram name="第 1 页" id="hYaXe4H1IOHM2DJvTghf">
     <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,8 +13,45 @@
         <mxCell id="oQaOQNZd7ZE0H4n1gU6y-2" value="topic:user-result-storage-group-small-insert" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="70" width="316" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oQaOQNZd7ZE0H4n1gU6y-4" target="oQaOQNZd7ZE0H4n1gU6y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oQaOQNZd7ZE0H4n1gU6y-4" value="创建订单分销处理记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="324" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oQaOQNZd7ZE0H4n1gU6y-6" target="oQaOQNZd7ZE0H4n1gU6y-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-13" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oQaOQNZd7ZE0H4n1gU6y-9">
+          <mxGeometry x="-0.36" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oQaOQNZd7ZE0H4n1gU6y-6" target="oQaOQNZd7ZE0H4n1gU6y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oQaOQNZd7ZE0H4n1gU6y-15">
+          <mxGeometry x="0.0345" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-6" value="是否大BigVip" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-8" value="插入普通用户分佣结果表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-10" value="mq" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="354" y="545" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oQaOQNZd7ZE0H4n1gU6y-8" target="oQaOQNZd7ZE0H4n1gU6y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-12" value="topic:miyuan-order-commission-user-result-add-small" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="575" width="316" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oQaOQNZd7ZE0H4n1gU6y-14" value="插入大v分佣表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
