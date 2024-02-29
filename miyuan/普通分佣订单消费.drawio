@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T05:45:18.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="qwdCwWjurtIZjX1njw_0" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T08:20:25.994Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7UQnbdHF6i9nhAmCc-xE" version="23.1.7" type="github">
   <diagram name="第 1 页" id="569bImrFtCmJBjjnHlKT">
-    <mxGraphModel dx="1876" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1080" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,10 +109,13 @@
         <mxCell id="u6fZPPmUXq0ZJrEqWwSW-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6fZPPmUXq0ZJrEqWwSW-33" target="u6fZPPmUXq0ZJrEqWwSW-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u6fZPPmUXq0ZJrEqWwSW-33" value="删除普通用户分佣表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u6fZPPmUXq0ZJrEqWwSW-33" value="保存统计订单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u6fZPPmUXq0ZJrEqWwSW-36" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u6fZPPmUXq0ZJrEqWwSW-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6fZPPmUXq0ZJrEqWwSW-36" target="u6fZPPmUXq0ZJrEqWwSW-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6fZPPmUXq0ZJrEqWwSW-36" value="删除普通用户分佣表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u6fZPPmUXq0ZJrEqWwSW-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6fZPPmUXq0ZJrEqWwSW-38" target="u6fZPPmUXq0ZJrEqWwSW-40">
@@ -126,6 +129,9 @@
         </mxCell>
         <mxCell id="u6fZPPmUXq0ZJrEqWwSW-40" value="更新结算记录表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6fZPPmUXq0ZJrEqWwSW-48" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
