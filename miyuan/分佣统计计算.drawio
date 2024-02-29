@@ -1,9 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T09:56:11.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.7" etag="02wJaIU6ebKVTgPkoT_P" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T10:03:26.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wZly7839DLGJdkuoOqWg" version="23.1.7" type="github">
   <diagram name="第 1 页" id="9900NFtCy3SH5PuDf0cv">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-1" target="lLaA5bFHnNP8vB_Erfp5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-1" value="分佣单处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-2" target="lLaA5bFHnNP8vB_Erfp5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-2" target="lLaA5bFHnNP8vB_Erfp5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-2" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-4" target="lLaA5bFHnNP8vB_Erfp5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-4" value="插入佣金单明细" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-6" target="lLaA5bFHnNP8vB_Erfp5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-6" value="获取上次进行分佣统计的日志：lastStat" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-8" target="lLaA5bFHnNP8vB_Erfp5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-8" value="根据lastStat撤销上次统计" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-10" value="扣减日统计表(日表，月表，总表)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-10" target="lLaA5bFHnNP8vB_Erfp5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="900" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-16" target="lLaA5bFHnNP8vB_Erfp5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-16" value="拉取统计配置，预估还有结算，根据渠道来计算" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lLaA5bFHnNP8vB_Erfp5-20" target="lLaA5bFHnNP8vB_Erfp5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-20" value="插入统计表(日表，月表，统计表)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLaA5bFHnNP8vB_Erfp5-22" value="收入分佣明细表更新，统计的记录，给与下一次撤销使用" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
