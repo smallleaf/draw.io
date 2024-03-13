@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T08:54:10.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="J3-_7BHdaGqGaDPrMj3a" version="24.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T09:01:42.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HsLzjylvFo6sCMc4ZNEG" version="24.0.3" type="github">
   <diagram name="第 1 页" id="Bj6_he6a6NiB_tpM2p7G">
     <mxGraphModel dx="2110" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,6 +162,30 @@
         </mxCell>
         <mxCell id="ZR2oZnLHFTLPa50n_OUC-56" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="350" y="1530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="920" width="470" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZR2oZnLHFTLPa50n_OUC-59" target="ZR2oZnLHFTLPa50n_OUC-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-59" value="根据规则引擎解析出来的url，去平台获取商品id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZR2oZnLHFTLPa50n_OUC-60" target="ZR2oZnLHFTLPa50n_OUC-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-60" value="DetailBiz.detail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-62" value="获得商品信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-64" value="搜索处理器大致流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-65" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1130" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
