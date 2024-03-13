@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T09:01:42.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HsLzjylvFo6sCMc4ZNEG" version="24.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T09:15:58.999Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OzM0Tj4fSJOzAFCWuT0H" version="24.0.3" type="github">
   <diagram name="第 1 页" id="Bj6_he6a6NiB_tpM2p7G">
     <mxGraphModel dx="2110" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
         <mxCell id="ZR2oZnLHFTLPa50n_OUC-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZR2oZnLHFTLPa50n_OUC-59" target="ZR2oZnLHFTLPa50n_OUC-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZR2oZnLHFTLPa50n_OUC-59" value="根据规则引擎解析出来的url，去平台获取商品id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZR2oZnLHFTLPa50n_OUC-59" value="根据规则引擎解析出来的url，解析或者去平台获取商品id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZR2oZnLHFTLPa50n_OUC-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZR2oZnLHFTLPa50n_OUC-60" target="ZR2oZnLHFTLPa50n_OUC-62">
