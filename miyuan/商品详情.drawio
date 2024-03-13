@@ -1,9 +1,207 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T03:13:56.644Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.3" etag="vUw-9G5qKcGB5luoBxiY" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T03:34:33.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0jwI12bnm9PyT_UbkgFq" version="24.0.3" type="github">
   <diagram name="第 1 页" id="IWeitN6v90rO395eBXJE">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-1" target="5RA_4K-gjTvnA65ZA-IP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-2" target="5RA_4K-gjTvnA65ZA-IP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-2" value="请求接口:/api/goods/detail/app" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-4" target="5RA_4K-gjTvnA65ZA-IP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-4" value="检查请求参数" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-6" target="5RA_4K-gjTvnA65ZA-IP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-6" value="根据channel路由到指定的goods-service-detail服务" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-11" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-8" value="缓存是否有有数据" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-12" target="5RA_4K-gjTvnA65ZA-IP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-17">
+          <mxGeometry x="-0.3333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-12" value="是否查询本地商品" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-16" target="5RA_4K-gjTvnA65ZA-IP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-16" value="从本地缓存中查询商品" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-20" target="5RA_4K-gjTvnA65ZA-IP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-20" value="从全网搜索" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-21" target="5RA_4K-gjTvnA65ZA-IP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-21" value="根据channel去取不同查询器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-23" target="5RA_4K-gjTvnA65ZA-IP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-23" value="搜索商品信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-25" target="5RA_4K-gjTvnA65ZA-IP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-25" value="后置处理：ppd比价，其他额外信息处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-27" target="5RA_4K-gjTvnA65ZA-IP-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-27" value="后置处理：ppd比价，其他额外信息处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-29" target="5RA_4K-gjTvnA65ZA-IP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-32">
+          <mxGeometry x="-0.3333" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-29" target="5RA_4K-gjTvnA65ZA-IP-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="1590" />
+              <mxPoint x="490" y="1860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-37">
+          <mxGeometry x="-0.897" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-29" value="是否需要缓存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-31" target="5RA_4K-gjTvnA65ZA-IP-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-31" value="缓存30s商品信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-33" target="5RA_4K-gjTvnA65ZA-IP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-33" value="返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-35" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1930" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1490" width="240" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-43" target="5RA_4K-gjTvnA65ZA-IP-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-47" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-45">
+          <mxGeometry x="-0.28" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-43" target="5RA_4K-gjTvnA65ZA-IP-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-57" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-53">
+          <mxGeometry x="-0.6" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-43" value="是否淘宝" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1520" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-44" value="true" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-48" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1572.5" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-52" target="5RA_4K-gjTvnA65ZA-IP-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-56" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-55">
+          <mxGeometry x="-0.1983" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-52" target="5RA_4K-gjTvnA65ZA-IP-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-60" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-59">
+          <mxGeometry x="-0.225" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-52" value="是否有优惠券" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1607.5" width="65" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-54" value="false" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="1623.75" width="57.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-58" target="5RA_4K-gjTvnA65ZA-IP-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-63" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-62">
+          <mxGeometry x="-0.2481" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RA_4K-gjTvnA65ZA-IP-58" target="5RA_4K-gjTvnA65ZA-IP-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-66" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5RA_4K-gjTvnA65ZA-IP-65">
+          <mxGeometry x="-0.1379" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-58" value="是否比价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1727" width="65" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-61" value="false" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1739.88" width="57.5" height="26.75" as="geometry" />
+        </mxCell>
+        <mxCell id="5RA_4K-gjTvnA65ZA-IP-64" value="true" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="56.25" y="1820" width="82.5" height="34.25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
