@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T09:12:59.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2-xlDwiGWIMOwCIe6Hkn" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T09:13:58.335Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Kf22P_YITFtFmzhj-PEH" version="24.0.6" type="github">
   <diagram name="第 1 页" id="1tOMRcfb03r_TatQWsgq">
     <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,8 +52,8 @@
         <mxCell id="NNQcNR_5SPwNsxDA947M-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NNQcNR_5SPwNsxDA947M-17" target="NNQcNR_5SPwNsxDA947M-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNQcNR_5SPwNsxDA947M-17" value="根据channel，转链方法取对应的处理器，进行转链" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="300" y="850" width="120" height="60" as="geometry" />
+        <mxCell id="NNQcNR_5SPwNsxDA947M-17" value="根据channel，转链方法取对应的处理器，进行转链&lt;div&gt;turnStrategyFactory.get&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="850" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NNQcNR_5SPwNsxDA947M-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNQcNR_5SPwNsxDA947M-19" target="NNQcNR_5SPwNsxDA947M-22">
           <mxGeometry relative="1" as="geometry" />
