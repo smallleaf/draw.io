@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T02:52:49.637Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HvHwxnVwprEX5-3o23qu" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T02:57:11.606Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="iuZCeWxbTghwT77fglFW" version="24.0.6" type="github">
   <diagram name="第 1 页" id="E42M_iRw3wJCUOGfKwOv">
     <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-84CJ0cTqPwXlulRKscy-63" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1159" width="620" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-58" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="950" width="540" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="-84CJ0cTqPwXlulRKscy-31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="67.5" width="740" height="545" as="geometry" />
         </mxCell>
@@ -147,6 +153,27 @@
         </mxCell>
         <mxCell id="-84CJ0cTqPwXlulRKscy-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.467;entryY=-0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-84CJ0cTqPwXlulRKscy-52" target="-84CJ0cTqPwXlulRKscy-56">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-59" value="管理后台配置策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="980" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-62" value="可灰度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="980" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-64" value="商品缓存组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1179" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-65" value="本地商品" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1179" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-66" value="全网搜索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="747" y="1179" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-67" value="排行榜" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1179.5" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-84CJ0cTqPwXlulRKscy-68" value="不同位置的列表ui样式可能不一样，需要做一次数据返回转化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1485" width="380" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
