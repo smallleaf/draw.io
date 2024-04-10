@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T06:55:09.960Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.3" etag="qvPYFJ4emKbnYmpmojWI" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T07:04:32.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="vnyDBVBkeu18q8Ukspeg" version="24.2.3" type="github">
   <diagram name="第 1 页" id="PdB2kwuyyB1b3Qyq9fKb">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-4" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="369.99999999999955" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-5" value="淘宝SDK" style="swimlane;startSize=20;html=1;" vertex="1" parent="kJssEVPsZuT1Y1IidYSU-4">
+          <mxGeometry y="20" width="139.99999999999955" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-22" value="查询礼金使用情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kJssEVPsZuT1Y1IidYSU-5">
+          <mxGeometry x="30" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-6" value="礼金服务" style="swimlane;startSize=20;html=1;" vertex="1" parent="kJssEVPsZuT1Y1IidYSU-4">
+          <mxGeometry x="139.99999999999955" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-8" value="报表统计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kJssEVPsZuT1Y1IidYSU-6">
+          <mxGeometry x="20.000000000000455" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-25" value="查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kJssEVPsZuT1Y1IidYSU-6">
+          <mxGeometry x="20.000000000000455" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-19" value="支付服务" style="swimlane;startSize=20;html=1;" vertex="1" parent="kJssEVPsZuT1Y1IidYSU-4">
+          <mxGeometry x="259.99999999999955" y="20" width="110" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kJssEVPsZuT1Y1IidYSU-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kJssEVPsZuT1Y1IidYSU-4" source="kJssEVPsZuT1Y1IidYSU-8" target="kJssEVPsZuT1Y1IidYSU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
