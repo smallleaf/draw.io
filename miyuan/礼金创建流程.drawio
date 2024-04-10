@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T01:31:48.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Ei5vYQEuIOrahzlJJy3D" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T01:44:29.687Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="fBl6Q2uqcEFe9ALSPeYO" version="24.2.3" type="github">
   <diagram name="第 1 页" id="3FuqSsKHA-6LWx0kxVeV">
     <mxGraphModel dx="1026" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="a16-33ozwnPPd66yTyi8-30" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="20" width="412.5" height="570" as="geometry" />
+          <mxGeometry x="170" y="20" width="527.5" height="800" as="geometry" />
         </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-31" value="用户" style="swimlane;startSize=20;html=1;" vertex="1" parent="a16-33ozwnPPd66yTyi8-30">
-          <mxGeometry y="20" width="120" height="550" as="geometry" />
+          <mxGeometry y="20" width="120" height="780" as="geometry" />
         </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a16-33ozwnPPd66yTyi8-31" source="a16-33ozwnPPd66yTyi8-34" target="a16-33ozwnPPd66yTyi8-35">
           <mxGeometry relative="1" as="geometry" />
@@ -35,19 +35,37 @@
           <mxGeometry x="15" y="328.75" width="90" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-32" value="礼金服务" style="swimlane;startSize=20;html=1;" vertex="1" parent="a16-33ozwnPPd66yTyi8-30">
-          <mxGeometry x="120" y="20" width="155" height="550" as="geometry" />
+          <mxGeometry x="120" y="20" width="266.25" height="780" as="geometry" />
         </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-41" value="校验参数" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="a16-33ozwnPPd66yTyi8-32">
           <mxGeometry x="32.5" y="250" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-54" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a16-33ozwnPPd66yTyi8-32" source="a16-33ozwnPPd66yTyi8-47" target="a16-33ozwnPPd66yTyi8-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-47" value="余额是否够" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="a16-33ozwnPPd66yTyi8-32">
           <mxGeometry x="43.75" y="320" width="67.5" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-53" value="创建礼金本地记录表" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="a16-33ozwnPPd66yTyi8-32">
+          <mxGeometry x="31.25" y="420" width="92.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="a16-33ozwnPPd66yTyi8-32" source="a16-33ozwnPPd66yTyi8-59" target="a16-33ozwnPPd66yTyi8-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-59" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="a16-33ozwnPPd66yTyi8-32">
+          <mxGeometry x="111.25" y="485" width="62.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-67" value="是否业务异常" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="a16-33ozwnPPd66yTyi8-32">
+          <mxGeometry x="31.25" y="590" width="62.5" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-33" value="支付服务" style="swimlane;startSize=20;html=1;" vertex="1" parent="a16-33ozwnPPd66yTyi8-30">
-          <mxGeometry x="275" y="20" width="137.5" height="550" as="geometry" />
+          <mxGeometry x="386.25" y="20" width="141.25" height="780" as="geometry" />
         </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-45" value="查询余额" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="a16-33ozwnPPd66yTyi8-33">
           <mxGeometry x="23.75" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-57" value="扣除余额" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="a16-33ozwnPPd66yTyi8-33">
+          <mxGeometry x="24.38" y="420" width="92.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a16-33ozwnPPd66yTyi8-30" source="a16-33ozwnPPd66yTyi8-39" target="a16-33ozwnPPd66yTyi8-41">
           <mxGeometry relative="1" as="geometry" />
@@ -59,6 +77,17 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a16-33ozwnPPd66yTyi8-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a16-33ozwnPPd66yTyi8-30" source="a16-33ozwnPPd66yTyi8-47" target="a16-33ozwnPPd66yTyi8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-52" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a16-33ozwnPPd66yTyi8-51">
+          <mxGeometry x="0.0136" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a16-33ozwnPPd66yTyi8-30" source="a16-33ozwnPPd66yTyi8-53" target="a16-33ozwnPPd66yTyi8-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a16-33ozwnPPd66yTyi8-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="a16-33ozwnPPd66yTyi8-30" source="a16-33ozwnPPd66yTyi8-57" target="a16-33ozwnPPd66yTyi8-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
