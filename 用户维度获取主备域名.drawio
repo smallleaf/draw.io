@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T10:08:53.856Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SHrX1D8JA3CcBqKX1c0U" version="24.5.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-16T10:09:02.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="KJGNksvGz14geIbPEJ-5" version="24.5.4" type="github" pages="2">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
     <mxGraphModel dx="984" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,9 @@
           <mxGeometry x="-0.35" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lmpfnoPUmlpRM1bAVeff-1" value="这里要做主备查询，如果主查不到数据，要拿备域名查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-50" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
