@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T10:27:44.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="3QyCwzjwGtx2UAKdGPS3" version="24.5.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-16T10:27:55.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="JTRRn67kjrVj2U-S6Ro0" version="24.5.4" type="github" pages="2">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
     <mxGraphModel dx="984" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,8 +95,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b8z2iY6NO5PzWCUO-a6g-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8z2iY6NO5PzWCUO-a6g-27" target="b8z2iY6NO5PzWCUO-a6g-41">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="b8z2iY6NO5PzWCUO-a6g-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8z2iY6NO5PzWCUO-a6g-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="-120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b8z2iY6NO5PzWCUO-a6g-27" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;域名1：https://api.gzmiyuan.com&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;域名2：https://api.gzmiyuan2.com&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="-230" width="220" height="60" as="geometry" />
@@ -110,11 +112,10 @@
         <mxCell id="b8z2iY6NO5PzWCUO-a6g-30" value="请求超级搜索接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b8z2iY6NO5PzWCUO-a6g-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8z2iY6NO5PzWCUO-a6g-41" target="b8z2iY6NO5PzWCUO-a6g-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b8z2iY6NO5PzWCUO-a6g-41" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%90%AF%E5%8A%A8%E6%9F%A5%E8%AF%A2%E6%8E%A5%E5%8F%A3%E8%8E%B7%E5%8F%96%E4%B8%BB%E5%A4%87%E5%9F%9F%E5%90%8D%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22300%22%20y%3D%22-60%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="-120" width="120" height="60" as="geometry" />
+        <mxCell id="b8z2iY6NO5PzWCUO-a6g-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="b8z2iY6NO5PzWCUO-a6g-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="-60" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b8z2iY6NO5PzWCUO-a6g-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b8z2iY6NO5PzWCUO-a6g-43" target="b8z2iY6NO5PzWCUO-a6g-30">
           <mxGeometry relative="1" as="geometry" />
@@ -133,6 +134,9 @@
         </mxCell>
         <mxCell id="b8z2iY6NO5PzWCUO-a6g-58" value="这里要做主备查询，如果主查不到数据，要拿备域名查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="165" y="-110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fk0ob7xUgTtRbY0hilc-1" value="启动查询接口获取主备域名信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
