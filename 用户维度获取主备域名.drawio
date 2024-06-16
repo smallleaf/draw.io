@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T08:49:48.268Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FJVnc_l3p3Jr2bZe9MCe" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T08:56:21.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ODomEgas9ThKHLqh1lOP" version="24.5.1" type="github">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
     <mxGraphModel dx="984" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="upkc6mN6fTIjEAg0F6dE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="upkc6mN6fTIjEAg0F6dE-9" target="upkc6mN6fTIjEAg0F6dE-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="upkc6mN6fTIjEAg0F6dE-9" value="根据设备ID等对主备域名HASH，得到主域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-9" value="根据设备ID等hash，得到主域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="upkc6mN6fTIjEAg0F6dE-10" value="设备id获取若不合规，可生成一个过期时间的uuid" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
