@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T08:34:28.974Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.1" etag="9tufFINwhDBx821LHsBX" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T08:49:48.268Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FJVnc_l3p3Jr2bZe9MCe" version="24.5.1" type="github">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
-    <mxGraphModel>
+    <mxGraphModel dx="984" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="upkc6mN6fTIjEAg0F6dE-5" target="upkc6mN6fTIjEAg0F6dE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-5" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;域名1：https://api.gzmiyuan.com&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;域名2：https://api.gzmiyuan2.com&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-6" value="客户端内置域名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="107.5" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="upkc6mN6fTIjEAg0F6dE-7" target="upkc6mN6fTIjEAg0F6dE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-7" value="打开APP，请求超级搜索接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="upkc6mN6fTIjEAg0F6dE-9" target="upkc6mN6fTIjEAg0F6dE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-9" value="根据设备ID等对主备域名HASH，得到主域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-10" value="设备id获取若不合规，可生成一个过期时间的uuid" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="337.5" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="upkc6mN6fTIjEAg0F6dE-13" target="upkc6mN6fTIjEAg0F6dE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="upkc6mN6fTIjEAg0F6dE-13" target="upkc6mN6fTIjEAg0F6dE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-13" value="主域名请求异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="upkc6mN6fTIjEAg0F6dE-15" target="upkc6mN6fTIjEAg0F6dE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-15" value="拿备域名请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-16" value="返回请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
