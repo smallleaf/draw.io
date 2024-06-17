@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T02:28:29.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="P93uz4Mw8VsqTVVPSwbp" version="24.5.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-17T10:35:27.198Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="iFN9ILpWxPxvRNKy-jx8" version="24.5.4" type="github" pages="2">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
     <mxGraphModel dx="984" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
         <mxCell id="4pAGDrcFquwVBTMvnEUA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y_7LHE8p0qRDN9ci_ydK-3" target="4pAGDrcFquwVBTMvnEUA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y_7LHE8p0qRDN9ci_ydK-3" value="打开app，请求域名分配服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="y_7LHE8p0qRDN9ci_ydK-3" value="打开app，请求域名分配服" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y_7LHE8p0qRDN9ci_ydK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y_7LHE8p0qRDN9ci_ydK-9" target="upkc6mN6fTIjEAg0F6dE-16" edge="1">
@@ -87,13 +87,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lmpfnoPUmlpRM1bAVeff-1" value="这里要做多个域名查询，如果主域名查不到数据，要拿备域名查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="-150" width="150" height="40" as="geometry" />
+        <mxCell id="lmpfnoPUmlpRM1bAVeff-1" value="确保配置成功获取：这里要做多个域名查询，如果主域名查不到数据，要拿备域名查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-160" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4pAGDrcFquwVBTMvnEUA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4pAGDrcFquwVBTMvnEUA-1" target="upkc6mN6fTIjEAg0F6dE-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pAGDrcFquwVBTMvnEUA-1" value="设置主备域名，需要降级的接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4pAGDrcFquwVBTMvnEUA-1" value="获取哪些域名支持主备域名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="-60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ZDUUXEUHzJTPd5ZZ1Xz-1" target="y_7LHE8p0qRDN9ci_ydK-9">
