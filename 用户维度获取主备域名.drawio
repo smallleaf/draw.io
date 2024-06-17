@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T10:37:24.631Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="w34v6Op5772OA-xSbzqz" version="24.5.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-17T10:47:04.639Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gtKG-OPzfgurtLLDKNcs" version="24.5.4" type="github" pages="3">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
     <mxGraphModel dx="984" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,6 +171,89 @@
         </mxCell>
         <mxCell id="6Fk0ob7xUgTtRbY0hilc-1" value="打开app，请求域名分配服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JNUcYycCWB4r1fy4BJ6u" name="第 3 页">
+    <mxGraphModel dx="984" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-1" target="UDDl5NSxIGM6FRDDU35X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-1" value="打开APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-3" target="UDDl5NSxIGM6FRDDU35X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-3" value="用主域名：gzmiyuan请求域名分配服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-5" target="UDDl5NSxIGM6FRDDU35X-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UDDl5NSxIGM6FRDDU35X-10">
+          <mxGeometry x="-0.35" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-5" value="请求是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-9" target="UDDl5NSxIGM6FRDDU35X-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-9" value="用备域名：gzmiyuan2请求域名分配服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-11" target="UDDl5NSxIGM6FRDDU35X-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UDDl5NSxIGM6FRDDU35X-15">
+          <mxGeometry x="-0.0989" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-11" target="UDDl5NSxIGM6FRDDU35X-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="585" />
+              <mxPoint x="180" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UDDl5NSxIGM6FRDDU35X-18">
+          <mxGeometry x="-0.7585" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-11" value="请求是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="544.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-13" target="UDDl5NSxIGM6FRDDU35X-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-13" value="采用默认规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-14" value="更新主备切换配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UDDl5NSxIGM6FRDDU35X-5" target="UDDl5NSxIGM6FRDDU35X-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="360" />
+              <mxPoint x="180" y="809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDDl5NSxIGM6FRDDU35X-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UDDl5NSxIGM6FRDDU35X-17">
+          <mxGeometry x="-0.8203" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
