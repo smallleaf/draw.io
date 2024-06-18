@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T09:42:37.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="3PpJCiHraqM8QMmztrXp" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-18T09:42:54.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jW2ROO2Ulc97plAz3uMO" version="24.5.4" type="github" pages="4">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
     <mxGraphModel dx="984" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,7 +323,7 @@
         <mxCell id="3mFdFHvg1WTEftDFWfcn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1nmYaFZ_NVAWfiSI2c5E-10" target="1nmYaFZ_NVAWfiSI2c5E-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmYaFZ_NVAWfiSI2c5E-10" value="轮训一个域名请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1nmYaFZ_NVAWfiSI2c5E-10" value="随机一个域名请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3mFdFHvg1WTEftDFWfcn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1nmYaFZ_NVAWfiSI2c5E-12">
