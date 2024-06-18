@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T02:45:22.561Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6RZdOAaBTXbx24i2BE3Q" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-18T09:19:27.989Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="g5nAc-uczIEUSpaBHvLY" version="24.5.4" type="github" pages="4">
   <diagram name="第 1 页" id="sjWXWl18P2W470_uy2_I">
     <mxGraphModel dx="984" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,10 +7,10 @@
         <mxCell id="y_7LHE8p0qRDN9ci_ydK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="upkc6mN6fTIjEAg0F6dE-5" target="y_7LHE8p0qRDN9ci_ydK-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="upkc6mN6fTIjEAg0F6dE-5" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;域名1：https://api.gzmiyuan.com&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;域名2：https://api.gzmiyuan2.com&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-5" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;域名1：https://config1.gzmiyuan.com&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;域名2：https://config2.gzmiyuan.com&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;域名3：https://config3.gzmiyuan.com&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="-270" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="upkc6mN6fTIjEAg0F6dE-6" value="客户端内置域名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-6" value="客户端内置配置拉取域名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="-252.5" width="60" height="25" as="geometry" />
         </mxCell>
         <mxCell id="upkc6mN6fTIjEAg0F6dE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="upkc6mN6fTIjEAg0F6dE-7" target="upkc6mN6fTIjEAg0F6dE-13" edge="1">
@@ -29,7 +29,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upkc6mN6fTIjEAg0F6dE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="upkc6mN6fTIjEAg0F6dE-13" edge="1" target="7ZDUUXEUHzJTPd5ZZ1Xz-1">
+        <mxCell id="upkc6mN6fTIjEAg0F6dE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="upkc6mN6fTIjEAg0F6dE-13" target="7ZDUUXEUHzJTPd5ZZ1Xz-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="285" as="targetPoint" />
             <Array as="points">
@@ -39,7 +39,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-3" value="异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="upkc6mN6fTIjEAg0F6dE-19">
+        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-3" value="异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="upkc6mN6fTIjEAg0F6dE-19" vertex="1" connectable="0">
           <mxGeometry x="-0.328" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -53,7 +53,7 @@
         <mxCell id="4pAGDrcFquwVBTMvnEUA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y_7LHE8p0qRDN9ci_ydK-3" target="4pAGDrcFquwVBTMvnEUA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y_7LHE8p0qRDN9ci_ydK-3" value="打开app，请求域名分配服" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="y_7LHE8p0qRDN9ci_ydK-3" value="打开app，请求域名配置服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y_7LHE8p0qRDN9ci_ydK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y_7LHE8p0qRDN9ci_ydK-9" target="upkc6mN6fTIjEAg0F6dE-16" edge="1">
@@ -87,27 +87,27 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lmpfnoPUmlpRM1bAVeff-1" value="确保配置成功获取：这里要做多个域名查询，如果主域名查不到数据，要拿备域名查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="lmpfnoPUmlpRM1bAVeff-1" value="确保配置成功获取：这里要做多个域名查询，如果失败要轮训查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="-160" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4pAGDrcFquwVBTMvnEUA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4pAGDrcFquwVBTMvnEUA-1" target="upkc6mN6fTIjEAg0F6dE-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pAGDrcFquwVBTMvnEUA-1" value="获取哪些域名支持主备域名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4pAGDrcFquwVBTMvnEUA-1" value="获取具体模块支持的域名配置列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="-60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ZDUUXEUHzJTPd5ZZ1Xz-1" target="y_7LHE8p0qRDN9ci_ydK-9">
+        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7ZDUUXEUHzJTPd5ZZ1Xz-1" target="y_7LHE8p0qRDN9ci_ydK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-4" value="支持" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ZDUUXEUHzJTPd5ZZ1Xz-2">
+        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-4" value="支持" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7ZDUUXEUHzJTPd5ZZ1Xz-2" vertex="1" connectable="0">
           <mxGeometry x="-0.29" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-1" value="接口是否支持直接降级" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-1" value="接口是否支持直接降级" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7ZDUUXEUHzJTPd5ZZ1Xz-1" target="upkc6mN6fTIjEAg0F6dE-16">
+        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7ZDUUXEUHzJTPd5ZZ1Xz-1" target="upkc6mN6fTIjEAg0F6dE-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="220" y="330" />
@@ -116,7 +116,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-6" value="不支持" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ZDUUXEUHzJTPd5ZZ1Xz-5">
+        <mxCell id="7ZDUUXEUHzJTPd5ZZ1Xz-6" value="不支持" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7ZDUUXEUHzJTPd5ZZ1Xz-5" vertex="1" connectable="0">
           <mxGeometry x="-0.8499" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
