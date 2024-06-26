@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T04:58:55.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="r_xtb09us20uP2vFR0kV" version="24.6.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-26T04:59:55.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="cYlg6o7ufv_sWO74QMHB" version="24.6.3" type="github" pages="3">
   <diagram name="第 1 页" id="Me-MjEM7M695wylJR8Lp">
     <mxGraphModel dx="1434" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,6 +188,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l_QCGiZ_kXtK9qJci9OO-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="550" width="680" height="415" as="geometry" />
+        </mxCell>
         <mxCell id="l_QCGiZ_kXtK9qJci9OO-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="530" y="170" width="240" height="350" as="geometry" />
         </mxCell>
@@ -273,6 +276,15 @@
         </mxCell>
         <mxCell id="l_QCGiZ_kXtK9qJci9OO-29" value="告警，通知做了何种故障切换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_QCGiZ_kXtK9qJci9OO-34" value="阿里云" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l_QCGiZ_kXtK9qJci9OO-35" value="腾讯云" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l_QCGiZ_kXtK9qJci9OO-36" value="故障切换" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="570" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
