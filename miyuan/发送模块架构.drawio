@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="y_jJ91WzIv8j6zjVebJz-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="100" y="50" width="710" height="360" as="geometry" />
+          <mxGeometry x="100" y="20" width="710" height="360" as="geometry" />
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-2" value="RocketMq" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="410" y="270" width="60" height="80" as="geometry" />
@@ -18,6 +18,11 @@
             <mxPoint x="440" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-11" value="发送消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y_jJ91WzIv8j6zjVebJz-7">
+          <mxGeometry x="-0.0706" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-4" value="业务服务2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
         </mxCell>
@@ -27,8 +32,21 @@
         <mxCell id="y_jJ91WzIv8j6zjVebJz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-3" target="y_jJ91WzIv8j6zjVebJz-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-10" value="发送消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y_jJ91WzIv8j6zjVebJz-6">
+          <mxGeometry x="0.0194" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-5" target="y_jJ91WzIv8j6zjVebJz-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-12" value="发送消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y_jJ91WzIv8j6zjVebJz-8">
+          <mxGeometry x="-0.125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-13" value="需要发送消息的服务按照规定的数据结构发送到RocketMQ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
