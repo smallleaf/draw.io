@@ -5,7 +5,27 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="y_jJ91WzIv8j6zjVebJz-2" value="RocketMq" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="340" y="210" width="60" height="80" as="geometry" />
+          <mxGeometry x="410" y="270" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-3" value="业务服务1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-4" value="业务服务2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-5" value="业务服务3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-3" target="y_jJ91WzIv8j6zjVebJz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-5" target="y_jJ91WzIv8j6zjVebJz-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
