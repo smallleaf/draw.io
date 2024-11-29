@@ -72,6 +72,9 @@
         <mxCell id="y_jJ91WzIv8j6zjVebJz-16" value="解析数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="525" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-17" target="y_jJ91WzIv8j6zjVebJz-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-17" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="410" y="780" width="60" height="80" as="geometry" />
         </mxCell>
@@ -89,6 +92,34 @@
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-32" value="读取RocketMq消息，解析数据，根据用户区分队列类型，存入数据到Redis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="437.5" width="140" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-34" target="y_jJ91WzIv8j6zjVebJz-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-34" value="调度器(每隔50s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-36" value="从Redis中拉取间隔1s的一批用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-38" value="调度器(每隔50s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-39" value="调度器(每隔50s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-40" value="。。。。。。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="985" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
