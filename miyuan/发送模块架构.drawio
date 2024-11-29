@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="y_jJ91WzIv8j6zjVebJz-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="110" y="410" width="720" height="460" as="geometry" />
+          <mxGeometry x="105" y="410" width="715" height="460" as="geometry" />
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="110" y="20" width="710" height="360" as="geometry" />
@@ -83,6 +83,9 @@
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-25" target="y_jJ91WzIv8j6zjVebJz-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-32" value="读取RocketMq消息，解析数据，根据用户区分队列类型，存入数据到Redis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="437.5" width="140" height="87.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
