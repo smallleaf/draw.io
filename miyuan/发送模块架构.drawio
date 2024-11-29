@@ -7,6 +7,9 @@
         <mxCell id="y_jJ91WzIv8j6zjVebJz-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="110" y="20" width="710" height="360" as="geometry" />
         </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-2" target="y_jJ91WzIv8j6zjVebJz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-2" value="RocketMq" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="410" y="270" width="60" height="80" as="geometry" />
         </mxCell>
@@ -47,6 +50,21 @@
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-13" value="需要发送消息的服务按照规定的数据结构发送到RocketMQ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-14" target="y_jJ91WzIv8j6zjVebJz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-14" value="发送模块服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-16" value="解析数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-17" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="410" y="670" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-16" target="y_jJ91WzIv8j6zjVebJz-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
