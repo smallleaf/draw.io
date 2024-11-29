@@ -88,7 +88,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y_jJ91WzIv8j6zjVebJz-34" value="调度器(每隔50s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-34" value="调度器(每隔50ms)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-36" target="y_jJ91WzIv8j6zjVebJz-44">
@@ -107,7 +107,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y_jJ91WzIv8j6zjVebJz-38" value="调度器(每隔50s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-38" value="调度器(每隔50ms)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="y_jJ91WzIv8j6zjVebJz-39">
@@ -120,7 +120,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y_jJ91WzIv8j6zjVebJz-39" value="调度器(每隔50s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y_jJ91WzIv8j6zjVebJz-39" value="调度器(每隔50ms)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y_jJ91WzIv8j6zjVebJz-40" value="。。。。。。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
