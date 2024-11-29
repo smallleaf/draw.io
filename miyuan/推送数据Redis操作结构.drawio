@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oY4tXYWYpJa_dLLlIFJh-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="20" width="700" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="oY4tXYWYpJa_dLLlIFJh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oY4tXYWYpJa_dLLlIFJh-2" target="oY4tXYWYpJa_dLLlIFJh-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -38,6 +41,9 @@
         </mxCell>
         <mxCell id="oY4tXYWYpJa_dLLlIFJh-14" value="如果发现该微信id没有推送的数据，把数据从校验池子中移除" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oY4tXYWYpJa_dLLlIFJh-16" value="这里的操作用lua脚本实现，保证原子操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
