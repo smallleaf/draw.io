@@ -4,42 +4,48 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BucBX8Afqsv7EcoYQEeD-1" target="BucBX8Afqsv7EcoYQEeD-4">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BucBX8Afqsv7EcoYQEeD-1" target="BucBX8Afqsv7EcoYQEeD-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-1" value="收到消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-1" value="收到消息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BucBX8Afqsv7EcoYQEeD-4" target="BucBX8Afqsv7EcoYQEeD-6">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BucBX8Afqsv7EcoYQEeD-4" target="BucBX8Afqsv7EcoYQEeD-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-4" value="分配poolkey：chat:push:pool:{接收微信%100}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-4" value="分配poolkey：chat:push:pool:{接收微信%100}" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BucBX8Afqsv7EcoYQEeD-6" target="BucBX8Afqsv7EcoYQEeD-8">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BucBX8Afqsv7EcoYQEeD-6" target="BucBX8Afqsv7EcoYQEeD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-13" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BucBX8Afqsv7EcoYQEeD-9">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-13" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BucBX8Afqsv7EcoYQEeD-9" vertex="1" connectable="0">
           <mxGeometry x="-0.3556" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BucBX8Afqsv7EcoYQEeD-6" target="BucBX8Afqsv7EcoYQEeD-10">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BucBX8Afqsv7EcoYQEeD-6" target="BucBX8Afqsv7EcoYQEeD-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-12" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BucBX8Afqsv7EcoYQEeD-11">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-12" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BucBX8Afqsv7EcoYQEeD-11" vertex="1" connectable="0">
           <mxGeometry x="-0.6" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-6" value="判断poolKey是否有垓微信id" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-6" value="判断poolKey是否有垓微信id" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-8" value="chat:push:msg:{微信id} 添加数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="roJMkj0LP4R8FdODdgCc-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BucBX8Afqsv7EcoYQEeD-8" target="roJMkj0LP4R8FdODdgCc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-8" value="chat:push:msg:{微信id} 添加数据" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BucBX8Afqsv7EcoYQEeD-10" value="添加该微信id入poolkey" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="BucBX8Afqsv7EcoYQEeD-10" value="添加该微信id入poolkey" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roJMkj0LP4R8FdODdgCc-1" value="chat:push:msg:{微信id}:{msgId}&amp;nbsp;存入消息结构体" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
