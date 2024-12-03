@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="roJMkj0LP4R8FdODdgCc-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="roJMkj0LP4R8FdODdgCc-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="220" y="360" width="420" height="390" as="geometry" />
         </mxCell>
         <mxCell id="BucBX8Afqsv7EcoYQEeD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BucBX8Afqsv7EcoYQEeD-1" target="BucBX8Afqsv7EcoYQEeD-4" edge="1">
@@ -38,19 +38,22 @@
         <mxCell id="BucBX8Afqsv7EcoYQEeD-6" value="判断poolKey是否有垓微信id" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="roJMkj0LP4R8FdODdgCc-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BucBX8Afqsv7EcoYQEeD-8" target="roJMkj0LP4R8FdODdgCc-1">
+        <mxCell id="roJMkj0LP4R8FdODdgCc-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BucBX8Afqsv7EcoYQEeD-8" target="roJMkj0LP4R8FdODdgCc-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BucBX8Afqsv7EcoYQEeD-8" value="chat:push:msg:{微信id} 添加数据" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="gFxQC-6VavRUCrPWGBDj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BucBX8Afqsv7EcoYQEeD-10" target="BucBX8Afqsv7EcoYQEeD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BucBX8Afqsv7EcoYQEeD-10" value="添加该微信id入poolkey" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="roJMkj0LP4R8FdODdgCc-1" value="chat:push:msg:{微信id}:{msgId}&amp;nbsp;存入消息结构体" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="roJMkj0LP4R8FdODdgCc-1" value="chat:push:msg:{微信id}:{msgId}&amp;nbsp;存入消息结构体" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="roJMkj0LP4R8FdODdgCc-4" value="这些操作保持原子性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="roJMkj0LP4R8FdODdgCc-4" value="这些操作保持原子性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="390" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
