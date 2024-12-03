@@ -16,6 +16,9 @@
         <mxCell id="EfEsFLw0orKiGEYMN6w3-1" value="待推送数据列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="u6foebVcak_EvIbJIwWJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EfEsFLw0orKiGEYMN6w3-2" target="EfEsFLw0orKiGEYMN6w3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EfEsFLw0orKiGEYMN6w3-2" value="线程1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -24,6 +27,9 @@
         </mxCell>
         <mxCell id="EfEsFLw0orKiGEYMN6w3-3" value="线程2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6foebVcak_EvIbJIwWJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EfEsFLw0orKiGEYMN6w3-4" target="EfEsFLw0orKiGEYMN6w3-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EfEsFLw0orKiGEYMN6w3-4" value="线程N" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="170" width="120" height="60" as="geometry" />
