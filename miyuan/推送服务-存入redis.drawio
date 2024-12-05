@@ -71,6 +71,9 @@
         <mxCell id="spIjIB3Fh69WIwpA02LG-29" value="chat:push:msg:{微信id} 添加id+msgType&amp;nbsp; &amp;nbsp;msgTime" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="spIjIB3Fh69WIwpA02LG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="spIjIB3Fh69WIwpA02LG-31" target="spIjIB3Fh69WIwpA02LG-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="spIjIB3Fh69WIwpA02LG-31" value="chat:push:msg:{微信id}:{id}&amp;nbsp;存入消息结构体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="750" width="120" height="60" as="geometry" />
         </mxCell>
@@ -131,6 +134,20 @@
         </mxCell>
         <mxCell id="spIjIB3Fh69WIwpA02LG-48" value="加入到普通池子" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="spIjIB3Fh69WIwpA02LG-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="spIjIB3Fh69WIwpA02LG-59" target="spIjIB3Fh69WIwpA02LG-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spIjIB3Fh69WIwpA02LG-63" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="spIjIB3Fh69WIwpA02LG-62">
+          <mxGeometry x="-0.4" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="spIjIB3Fh69WIwpA02LG-59" value="消息长度&amp;gt;500?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="spIjIB3Fh69WIwpA02LG-61" value="监控或者移除旧数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
