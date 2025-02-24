@@ -38,17 +38,32 @@
         <mxCell id="vWv0UdDCMS5IP7DEK0dk-5" value="是否插队？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="420" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vWv0UdDCMS5IP7DEK0dk-7" value="处理消息，入db，redis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vWv0UdDCMS5IP7DEK0dk-7" value="处理消息，入db，增加redis信息缓存" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vWv0UdDCMS5IP7DEK0dk-11" value="根据wechatId分队列顺序，放入MQ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vWv0UdDCMS5IP7DEK0dk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWv0UdDCMS5IP7DEK0dk-14" target="vWv0UdDCMS5IP7DEK0dk-7">
+        <mxCell id="vWv0UdDCMS5IP7DEK0dk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWv0UdDCMS5IP7DEK0dk-14" target="vWv0UdDCMS5IP7DEK0dk-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vWv0UdDCMS5IP7DEK0dk-14" value="监听MQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWv0UdDCMS5IP7DEK0dk-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWv0UdDCMS5IP7DEK0dk-19" target="vWv0UdDCMS5IP7DEK0dk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWv0UdDCMS5IP7DEK0dk-19" value="推送线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWv0UdDCMS5IP7DEK0dk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWv0UdDCMS5IP7DEK0dk-20" target="vWv0UdDCMS5IP7DEK0dk-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWv0UdDCMS5IP7DEK0dk-20" value="根据messageId从Redis取信息，如果没有从db中读取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWv0UdDCMS5IP7DEK0dk-22" value="推送数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
