@@ -117,6 +117,82 @@
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-39" value="5.分块组装反序列化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="195" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-47" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-42" target="xQqMgUkMzhKEqNWWZUp3-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-52" value="1.请求代理服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQqMgUkMzhKEqNWWZUp3-47">
+          <mxGeometry x="-0.2571" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-42" value="服务A请求ProxyServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-43" target="xQqMgUkMzhKEqNWWZUp3-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-43" value="分块1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-44" value="分块2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-45" target="xQqMgUkMzhKEqNWWZUp3-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-45" value="分块3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="629" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-46" target="xQqMgUkMzhKEqNWWZUp3-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-46" value="ProxyServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.558;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-46" target="xQqMgUkMzhKEqNWWZUp3-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.567;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-46" target="xQqMgUkMzhKEqNWWZUp3-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-51" value="2.进行分块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-53" target="xQqMgUkMzhKEqNWWZUp3-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-53" target="xQqMgUkMzhKEqNWWZUp3-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-53" target="xQqMgUkMzhKEqNWWZUp3-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-53" value="Reactor线程池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-55" target="xQqMgUkMzhKEqNWWZUp3-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-55" value="异地ProxyServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-62" value="3.分块并发请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="533" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-70" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-64" target="xQqMgUkMzhKEqNWWZUp3-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-64" value="如果获取的分块数量等于请求中的总分块数量，进行组装好" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-69" value="请求B服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
