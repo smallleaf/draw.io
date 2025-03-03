@@ -22,6 +22,14 @@
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-6" value="Proxy server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="160" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-7" target="xQqMgUkMzhKEqNWWZUp3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-30" value="4.代理服务把请求转发到B服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQqMgUkMzhKEqNWWZUp3-29">
+          <mxGeometry x="-0.04" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="150" width="190" height="90" as="geometry" />
         </mxCell>
@@ -31,17 +39,41 @@
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-9" target="xQqMgUkMzhKEqNWWZUp3-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-9" target="xQqMgUkMzhKEqNWWZUp3-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="80" />
+              <mxPoint x="730" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-9" value="server pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="180" width="80" height="45" as="geometry" />
         </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-10" target="xQqMgUkMzhKEqNWWZUp3-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-10" target="xQqMgUkMzhKEqNWWZUp3-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="90" />
+              <mxPoint x="260" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-10" value="server pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="180" width="80" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-11" target="xQqMgUkMzhKEqNWWZUp3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-26" value="2.不在先通过长连接，将RPC请求转发到代理服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQqMgUkMzhKEqNWWZUp3-25">
+          <mxGeometry x="-0.0519" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-11" value="Application A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-13" value="Application A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="330" width="120" height="60" as="geometry" />
@@ -50,7 +82,19 @@
           <mxGeometry x="740" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-17" value="高速内网长连接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="210" width="60" height="30" as="geometry" />
+          <mxGeometry x="460" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-20" value="Application B是否在线？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.088;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-11" target="xQqMgUkMzhKEqNWWZUp3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-24" value="1.B服务是否在线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-28" value="3.取连接池中一条连接，转到ZoneB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="160" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
