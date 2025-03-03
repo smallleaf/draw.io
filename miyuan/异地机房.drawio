@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="_30U15q6uizshzYyVMpY">
-    <mxGraphModel dx="984" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1352" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,7 +160,7 @@
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.567;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-46" target="xQqMgUkMzhKEqNWWZUp3-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xQqMgUkMzhKEqNWWZUp3-51" value="2.进行分块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-51" value="2.进行分块序列化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="670" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-53" target="xQqMgUkMzhKEqNWWZUp3-55">
@@ -178,6 +178,11 @@
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-55" target="xQqMgUkMzhKEqNWWZUp3-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-72" value="4.反序列化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQqMgUkMzhKEqNWWZUp3-68">
+          <mxGeometry x="-0.214" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-55" value="异地ProxyServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="990" width="120" height="60" as="geometry" />
         </mxCell>
@@ -187,11 +192,16 @@
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-70" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQqMgUkMzhKEqNWWZUp3-64" target="xQqMgUkMzhKEqNWWZUp3-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xQqMgUkMzhKEqNWWZUp3-73" value="5.组装请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQqMgUkMzhKEqNWWZUp3-70">
+          <mxGeometry x="-0.2163" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-64" value="如果获取的分块数量等于请求中的总分块数量，进行组装好" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1100" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQqMgUkMzhKEqNWWZUp3-69" value="请求B服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
