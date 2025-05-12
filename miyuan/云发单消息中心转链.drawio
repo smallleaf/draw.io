@@ -38,7 +38,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukhklaAYOwJYBebPquZN-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-26" target="ukhklaAYOwJYBebPquZN-31">
+        <mxCell id="ukhklaAYOwJYBebPquZN-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-26" target="ukhklaAYOwJYBebPquZN-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-26" value="判断次消息是否已经已推送？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -51,7 +51,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-31" value="调用转链服务,如果限流超过x次，添加参数不再触发转链限流" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-35" target="ukhklaAYOwJYBebPquZN-42">
           <mxGeometry relative="1" as="geometry" />
@@ -61,8 +61,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukhklaAYOwJYBebPquZN-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-35" target="ukhklaAYOwJYBebPquZN-51">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ukhklaAYOwJYBebPquZN-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-35" value="是否限流" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="460" width="80" height="80" as="geometry" />
@@ -95,33 +97,36 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukhklaAYOwJYBebPquZN-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-51" target="ukhklaAYOwJYBebPquZN-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ukhklaAYOwJYBebPquZN-55" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukhklaAYOwJYBebPquZN-54">
-          <mxGeometry x="-0.2542" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ukhklaAYOwJYBebPquZN-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1110" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ukhklaAYOwJYBebPquZN-51" value="频控是否通过？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="600" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-53" target="ukhklaAYOwJYBebPquZN-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-53" value="从该用户队列移除该消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-59" value="推送到第三方" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.603;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-59" target="ukhklaAYOwJYBebPquZN-39">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukhklaAYOwJYBebPquZN-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-66" target="ukhklaAYOwJYBebPquZN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukhklaAYOwJYBebPquZN-69" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukhklaAYOwJYBebPquZN-68">
+          <mxGeometry x="-0.5411" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukhklaAYOwJYBebPquZN-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-66" target="ukhklaAYOwJYBebPquZN-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukhklaAYOwJYBebPquZN-73" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukhklaAYOwJYBebPquZN-72">
+          <mxGeometry x="-0.4762" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukhklaAYOwJYBebPquZN-66" value="频控？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
