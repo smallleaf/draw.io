@@ -16,10 +16,8 @@
         <mxCell id="ukhklaAYOwJYBebPquZN-8" value="拉取待推送用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ukhklaAYOwJYBebPquZN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="520" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ukhklaAYOwJYBebPquZN-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-10" target="ukhklaAYOwJYBebPquZN-74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-10" value="拉取待推送的一个消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="390" width="120" height="60" as="geometry" />
@@ -28,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-23" value="推送线程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-26" target="ukhklaAYOwJYBebPquZN-27">
           <mxGeometry relative="1" as="geometry" />
@@ -127,6 +125,12 @@
         </mxCell>
         <mxCell id="ukhklaAYOwJYBebPquZN-66" value="频控？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ukhklaAYOwJYBebPquZN-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukhklaAYOwJYBebPquZN-74" target="ukhklaAYOwJYBebPquZN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukhklaAYOwJYBebPquZN-74" value="更新用户下次就绪时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
