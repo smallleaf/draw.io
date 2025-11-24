@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="EJLRLbqitqjizCw2QX9v">
-    <mxGraphModel dx="1357" dy="2042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="-obbmEkJ7aJmQrMQ3Rns-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="第三方消息，处理推送到消息分发中心" vertex="1">
           <mxGeometry height="25" width="130" x="610" y="135" as="geometry" />
         </mxCell>
-        <mxCell id="-obbmEkJ7aJmQrMQ3Rns-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="消息分发服务" vertex="1">
+        <mxCell id="-obbmEkJ7aJmQrMQ3Rns-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="消息推送服务" vertex="1">
           <mxGeometry height="70" width="437" x="313" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="-obbmEkJ7aJmQrMQ3Rns-27" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
